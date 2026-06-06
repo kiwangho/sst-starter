@@ -1,0 +1,16 @@
+{
+  "name": "sst-starter",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": ["frontend", "api"],
+  "scripts": {
+    "deploy": "sst deploy --stage",
+    "remove": "sst remove --stage",
+    "dev": "sst dev"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "sst": "3",
+    "typescript": "^5.6.0"
+  }
+}
